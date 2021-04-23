@@ -1,0 +1,111 @@
+{
+	"id": "50a7f76e-5825-47fd-b2d6-7c319a1d7608",
+	"name": "ReqResTest",
+	"timestamp": "2021-01-15T12:49:24.389Z",
+	"collection_id": "24a8d5d4-8556-4b91-b058-39788d3456da",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0471459d-c01c-4b0c-9d63-b7d6c41ca18d",
+			"name": "Getsingleuser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ad7e148e-9fce-43d0-9abe-fd166522136f",
+			"name": "CreateUser",
+			"url": "https://reqres.in/api/users",
+			"time": 159,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				159
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "f25e1d23-77ad-48f5-bd93-7d263f3d18d1",
+			"name": "DeleteUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 120,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 327,
+	"collection": {
+		"requests": [
+			{
+				"id": "0471459d-c01c-4b0c-9d63-b7d6c41ca18d",
+				"method": "GET"
+			},
+			{
+				"id": "ad7e148e-9fce-43d0-9abe-fd166522136f",
+				"method": "POST"
+			},
+			{
+				"id": "f25e1d23-77ad-48f5-bd93-7d263f3d18d1",
+				"method": "DELETE"
+			}
+		]
+	}
+}
